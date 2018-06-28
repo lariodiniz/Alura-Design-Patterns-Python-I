@@ -1,5 +1,6 @@
 
 from impostos import ICMS, ISS
+# -*- coding: UTF-8 -*-
 
 class Calculador_de_impostos(object):
 
@@ -15,10 +16,10 @@ if __name__ == '__main__':
     from orcamento import Orcamento
 
     calculador = Calculador_de_impostos()
-    orcamento = Orcamento(500)
+    #orcamento = Orcamento(500)
 
-    calculador.realiza_calculo(orcamento, ISS())
-    calculador.realiza_calculo(orcamento, ICMS())
+    #calculador.realiza_calculo(orcamento, ISS())
+    #calculador.realiza_calculo(orcamento, ICMS())
 
 
     print('--         -*-          --')
