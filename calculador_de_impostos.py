@@ -28,8 +28,10 @@ if __name__ == '__main__':
     calculador.realiza_calculo(orcamento, ISS())
     calculador.realiza_calculo(orcamento, ICMS())
 
+    calculador.realiza_calculo(orcamento,  ISS(ICMS()))
+
     calculador.realiza_calculo(orcamento, ICPP())
     calculador.realiza_calculo(orcamento, IKCV())
-
+    calculador.realiza_calculo(orcamento, ICPP(IKCV()))
 
     print('--         -*-          --')
